@@ -1,0 +1,44 @@
+@media (max-width: 800px) {
+  .nav-one,
+  .nav-two {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .nav-two {
+    overflow: hidden;
+    display: none;
+  }
+
+  .first-section h1 {
+    width: 100%;
+    padding: 20px;
+  }
+
+  .first-section div{
+    display: flex;
+    height: auto;
+    margin: 10px 50px;
+    flex-wrap: wrap;
+}
+  }
+
+  .first-section ul{
+    flex: 100%;
+  }
+
+  .a-bill, .m-bill{
+    flex: 100%;
+  }
+
+  .flex-container{
+    display: flex;
+    height: auto;
+    flex-wrap: wrap;
+  }
+
+  .flex-one, .flex-two, .flex-three{
+    flex: 100%;
+  }
+}

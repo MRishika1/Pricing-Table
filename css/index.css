@@ -1,0 +1,307 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    width: 100%;
+    height: auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-weight: 30px;
+}
+
+/* Navbar Section */
+.navbar{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    padding: 30px 100px;
+}
+
+.nav-one{
+    flex: 70%;
+}
+
+.nav-one li{
+    display: inline;
+    padding: 10px;
+}
+
+.logo {
+    font-weight: bold;
+    list-style: circle;
+    color: black;
+}
+
+.nav-two{
+    flex: 30%;
+}
+
+.nav-two li{
+    display: inline;
+    padding: 10px;
+}
+
+.login{
+    padding: 20px;
+    color: black;
+    box-shadow: 2px 2px 5px gray;
+    border-radius: 5px;
+}
+
+.signup{
+    padding: 20px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.signup a{
+    color: white;
+}
+
+/* First Section */
+.first-section{
+    width: 100%;
+    height: auto;
+}
+
+.first-section h1{
+    width: 60%;
+    padding: 50px 100px;
+    font-size: 60px;
+}
+
+.first-section div{
+    width: 50%;
+    margin: 0px 100px;
+}
+
+.first-section ul{
+    border: 1px solid black;
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+}
+
+.first-section li{
+    margin: 20px;
+    list-style: none;
+}
+
+.m-bill{
+    padding: 10px;
+    background-color: black;
+    border-radius: 5px;
+}
+
+.m-bill a{
+    color: white;
+}
+
+.a-bill{
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+}
+
+.a-bill a{
+    color: black;
+}
+
+/* Second Section */
+.flex-container{
+    display: flex;
+    height: auto;
+    width: 90%;
+    padding: 10px;
+    margin: auto;
+}
+
+.flex-one, .flex-two, .flex-three{
+    flex: 33%;
+    margin: 5px;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 10px;
+}
+
+.flex-one h5{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.one-container{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
+.one-1, .one-2{
+    float: left;
+    text-align: justify;
+}
+
+.one-1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.one-2{
+    padding: 15px;
+    color: rgb(68, 67, 67);
+}
+
+.flex-one .three{
+    color: rgb(107, 105, 105);
+    font-size: 15px;
+    margin: 25px 5px;
+}
+
+.flex-one .btn1{
+    width: 90%;
+    margin: 15px 0px;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.btn1 a{
+    color: white;
+}
+
+.flex-one .btn2{
+    width: 90%;
+    margin: 15px 0px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid rgb(97, 96, 96);
+}
+
+.btn2 a{
+    color: black;
+}
+
+hr{
+    border: 1px solid gray;
+    width: 100%;
+}
+
+.flex-one h6{
+    font-size: 12px;
+    margin: 30px 0px 10px;
+}
+
+.flex-one p{
+    color: rgb(83, 82, 82);
+    margin: 5px;
+}
+
+.flex-two .three{
+    color: rgb(107, 105, 105);
+    font-size: 15px;
+    margin: 25px 5px;
+}
+
+.flex-two .btn1{
+    width: 90%;
+    margin: 15px 0px;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.btn1 a{
+    color: white;
+}
+
+.flex-two .btn2{
+    width: 90%;
+    margin: 15px 0px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid rgb(97, 96, 96);
+}
+
+.btn2 a{
+    color: black;
+}
+
+.flex-two h6{
+    font-size: 12px;
+    margin: 30px 0px 10px;
+}
+
+.flex-two p{
+    color: rgb(83, 82, 82);
+    margin: 5px;
+}
+
+.flex-three .three{
+    color: rgb(107, 105, 105);
+    font-size: 15px;
+    margin: 25px 5px;
+}
+
+.flex-three .btn1{
+    width: 90%;
+    margin: 15px 0px;
+    background-color: black;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+
+.btn1 a{
+    color: white;
+}
+
+.flex-three .btn2{
+    width: 90%;
+    margin: 15px 0px;
+    background-color: white;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+    border: 1px solid rgb(97, 96, 96);
+}
+
+.btn2 a{
+    color: black;
+}
+
+.flex-three h6{
+    font-size: 12px;
+    margin: 30px 0px 10px;
+}
+
+.flex-three p{
+    color: rgb(83, 82, 82);
+    margin: 5px;
+}
+
+.flex-one:hover{
+    background-color: black;
+    color: white;
+}
+
+.flex-two:hover{
+    background-color: black;
+    color: white;
+}
+
+.flex-three:hover{
+    background-color: black;
+    color: white;
+}
